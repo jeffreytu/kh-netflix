@@ -10,7 +10,6 @@ import {
 } from "./styles/jumbotron";
 
 const Jumbotron = ({ children, direction = "row", ...restProps }) => {
-  console.log(children);
   return (
     <Item {...restProps}>
       <Inner direction={direction}>{children}</Inner>
